@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Game Format</title>
+  <link rel="stylesheet" href="../styles/bootstrap.min.css">
+  <link rel="stylesheet" href="../styles/common.css">
+  <link rel="stylesheet" href="../styles/game_common.css">
+</head>
+<body>
+  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 game-main">
+    <div class="userbar nav navbar-nav navbar-fixed-top col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <p class="navbar-text col-lg-3 col-md-3 col-sm-3 col-xs-12" id='userbar-user'></p>
+      <p class="navbar-text col-lg-3 col-md-3 col-sm-3 col-xs-12" id='userbar-score'></p>
+      <p class="navbar-text col-lg-3 col-md-3 col-sm-3 col-xs-12" id='userbar-lvl'></p>
+      <button class="btn btn-default col-lg-3 col-md-3 col-sm-3 col-xs-12 navbar-btn" id='goback'>Volver al Menu Principal</button>
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 clue-div">
+      <img id='clue'>
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 question-div">
+      <span id="question"></span>
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 btn-group">
+      <button class="btn col-lg-5 col-md-5 col-sm-5 col-xs-12" id='q-1'></button>
+      <div class="clearfix col-lg-2 col-md-2 col-sm-2 col-xs-0"></div>
+      <button class="btn col-lg-5 col-md-5 col-sm-5 col-xs-12" id='q-2'></button>
+      <button class="btn col-lg-5 col-md-5 col-sm-5 col-xs-12" id='q-3'></button>
+      <div class="clearfix col-lg-2 col-md-2 col-sm-2 col-xs-0"></div>
+      <button class="btn col-lg-5 col-md-5 col-sm-5 col-xs-12" id='q-4'></button>
+    </div>
+  </div>
+  <script src='../app/jquery-3.1.1.min.js'></script>
+  <script src='../app/gameSys.js'></script>
+</body>
+</html>

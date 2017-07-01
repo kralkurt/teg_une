@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html,body{
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-style: normal;
+  font-size: 12px;
+  background-image: url('../res/background/fondo.jpg');
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+.main{
+padding-top: 5%;
+}
+
+.btn-group button{
+  font-family: "Century";
+  background-color: #2ECCFA;
+  color: #0A2A0A;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.btn-group .btn:hover, .btn-group .btn:active {
+  color: #055E0B;
+}
+
+.app-header{
+  font-family: "Century";
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 28px;
+  font-weight: bold;
+  font-variant: normal;
+  text-align: center;
+}
