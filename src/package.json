@@ -2,9 +2,12 @@
   "name": "samurai-app",
   "main": "views/main.html",
   "window":{
-    "width":800,
-    "height":600,
-    "resizable":false,
-    "icon":"assets/android.png"
+    "min_width":800,
+    "min_height":600,
+    "max_width":900,
+    "max_height":750,
+    "resizable":true,
+    "icon":"assets/android.png",
+    "toolbar": true
   }
 }

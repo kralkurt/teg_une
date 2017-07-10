@@ -20,24 +20,27 @@ padding-top: 5%;
 }
 
 .btn-group button{
+  color: #000000;
   font-family: "Century";
-  background-color: #2ECCFA;
-  color: #0A2A0A;
+  background-color: rgba(122, 122, 122, 0.3);
   text-align: center;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 19px;
   padding: 0;
   margin-top: 10px;
   margin-bottom: 10px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-width: 0px;
 }
 
 .btn-group .btn:hover, .btn-group .btn:active {
-  color: #055E0B;
+  background-color: rgba(122, 122, 122, 0.5);
+  color: #FFBF00;
 }
 
 .app-header{
+  color: #000000;
   font-family: "Century";
   margin-top: 25px;
   margin-bottom: 25px;

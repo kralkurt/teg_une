@@ -7,13 +7,14 @@ $(document).ready(function(){
   $('#goto-main').click(function(){
     window.location = './front.html'
   })
-  $('#goto-options').click(function(){
+  $('#goto-howto').click(function(){
     window.location = './howto.html'
   })
-  $('#credits-btn').click(function(){
-    alert('Hecho por Alejandro Rodriguez')
+  $('#top10-btn').click(function(){
+    window.location = './top10.html'
   })
   $('#close-btn').click(function(){
     win.close()
   })
+
 })
